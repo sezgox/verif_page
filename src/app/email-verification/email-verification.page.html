@@ -1,0 +1,5 @@
+<ion-content [fullscreen]="true">
+      <div *ngIf="verifying"><ion-text>Verificando... </ion-text></div>
+      <div *ngIf="verified"><ion-text>Tu correo electrónico ha sido verificado. </ion-text></div>
+      <div *ngIf="error"><ion-text>Hubo un error al verificar tu correo electrónico.</ion-text></div>
+</ion-content>
